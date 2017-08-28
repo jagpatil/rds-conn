@@ -1,10 +1,10 @@
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({
-  host     : process.env.RDS_HOSTNAME,
-  user     : process.env.RDS_USERNAME,
-  password : process.env.RDS_PASSWORD,
-  port     : process.env.RDS_PORT
+  host     : car.cnoobih3hzdj.eu-west-1.rds.amazonaws.com,
+  user     : car,
+  password : cartable1234,
+  port     : 3306
 });
 
 connection.connect(function(err) {
